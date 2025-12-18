@@ -46,18 +46,21 @@ div.text {
 
   span {
     color: #c4f82a;
+    font-size: 12px;
+    font-weight: 700;
   }
   h2 {
-    font-size: 19px;
+    font-size: 22px;
     margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
   }
-  p,
-  span {
-    font-size: 13px;
-  }
+
   p {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
   }
 }
 
@@ -70,8 +73,16 @@ div.buttons {
     background-color: #333333;
     border: none;
     color: #ffffff;
-    width: 300px;
+    width: 295px;
     height: 40px;
     border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
   }
+}
+
+div.buttons button:hover {
+  background-color: #c4f82a;
+  color: #333333;
+  font-weight: 700;
 }
