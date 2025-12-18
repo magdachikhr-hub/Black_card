@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 main {
@@ -17,7 +20,7 @@ main {
 }
 
 div.card {
-  height: 520px;
+  height: 550px;
   width: 350px;
   background-color: #1f1f1f;
   border-radius: 12px;
@@ -44,19 +47,31 @@ div.text {
   span {
     color: #c4f82a;
   }
+  h2 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  p,
+  span {
+    font-size: 13px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 div.buttons {
   display: flex;
   flex-direction: column;
-  width: 304px;
-  height: 45px;
   gap: 16px;
-  border-radius: 8px;
 
   button {
     background-color: #333333;
     border: none;
     color: #ffffff;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
   }
 }
